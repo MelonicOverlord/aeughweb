@@ -14,3 +14,10 @@ https://melonicoverlord.github.io/portfolio/
 https://melonicoverlord.github.io/aeughweb/
 
 OR IN THE APP STORE AT: https://win11.blueedge.me/
+
+### To Do:
+Add Ramsay
+
+Add points system (pickelhaube?)
+
+Add death
