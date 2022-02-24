@@ -1,0 +1,59 @@
+<html>
+
+  <head>
+    <title>SUPER SMASH ÆÜGH - WEB</title>
+    <meta content="content-type" type="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.00, user-scalable=false;" />
+    <link type="text/css" rel="stylesheet" href="styles.css" />
+    <script type="text/javascript" src="scripts.js"></script>
+    <link rel="image/x-icon" href="favicon.ico" /> 
+    <script>
+      function leftArrowPressed() {
+        var element = document.getElementById("fish");
+        element.style.left = parseInt(element.style.left) - 5 + 'px';
+      }
+
+      function rightArrowPressed() {
+        var element = document.getElementById("fish");
+        element.style.left = parseInt(element.style.left) + 5 + 'px';
+
+      }
+
+      function upArrowPressed() {
+        var element = document.getElementById("fish");
+        element.style.top = parseInt(element.style.top) - 5 + 'px';
+      }
+
+      function downArrowPressed() {
+        var element = document.getElementById("fish");
+        element.style.top = parseInt(element.style.top) + 5 + 'px';
+      }
+
+      function moveSelection(evt) {
+        switch (evt.keyCode) {
+          case 37:
+            leftArrowPressed();
+            break;
+          case 39:
+            rightArrowPressed();
+            break;
+          case 38:
+            upArrowPressed();
+            break;
+          case 40:
+            downArrowPressed();
+            break;
+        }
+      };
+
+      function docReady() {
+        window.addEventListener('keydown', moveSelection);
+      }
+    </script>
+  </head>
+
+  <body onload="docReady()" onkeydown="" onkeyup="" bgcolor='yellow'>
+    <img id="fish" src="pufferfish.png" style="position:absolute;left:0; top:0;" height="60" width="60">
+  </body>
+
+</html>
