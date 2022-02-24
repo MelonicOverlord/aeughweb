@@ -1,6 +1,6 @@
 # Super Smash ÆÜGH
 
-A simple game made in HTML, CSS and JS that features an arrow key-controlled pufferfish. The pufferfish has to eat food around the map while being chased by Gordon Ramsay. The game is currently in development, and as of currently NOT playable.
+A simple game made in HTML, CSS and JS that features an arrow key-controlled pufferfish. The pufferfish has to eat food around the map while being chased by Gordon Ramsay. The game is currently in development, and as of right now NOT playable.
 
 ### Origins:
 Super Smash ÆÜGH originated from: https://github.com/MFHKiwi/super-smash-aeugh.
