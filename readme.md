@@ -21,3 +21,5 @@ Add Ramsay
 Add points system (pickelhaube?)
 
 Add death
+
+Make fish movement smoother
